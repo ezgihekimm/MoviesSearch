@@ -1,0 +1,74 @@
+.Container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: black;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	background: black;
+	padding-top: 20px;
+}
+
+.col-left{
+
+}
+
+.col-right{
+
+}
+.button{
+	background-color: black;
+	color: #00FC87;
+	border: 1px solid #fff;
+	margin-top: 10px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.logo{
+	width: 140px;
+	height: 56px;
+}
+
+.search{
+	width: 400px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-size: 18px;
+	color: #fff;
+}
+
+.search:focus{
+	outline: none;
+}
+
+.poster{
+	width: 200px;
+	height: 250px;
+	padding-bottom: 15px;
+}
+
+.posterContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.films{
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	flex-wrap: wrap;
+	color: #fff;
+	text-align: center;
+}
+
